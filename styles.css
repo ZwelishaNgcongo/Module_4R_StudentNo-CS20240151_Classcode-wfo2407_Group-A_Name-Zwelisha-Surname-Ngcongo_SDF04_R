@@ -18,7 +18,10 @@ body {
     padding: 80px;
     border-radius: 10px;
     width: 80%;
-    position: relative; 
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
   
   .pastry {
@@ -26,7 +29,7 @@ body {
     padding: 20px;
     border-radius: 50%;
     font-size: 18px;
-    position: absolute; 
+    
   }
   
   .pastry img {
@@ -37,7 +40,9 @@ body {
   .pastry1 { /* Cookie */
     top: 0;
     left: 0;
-    background-color: #f0bb7f; 
+    background-color: #f0bb7f;
+    
+  
   }
   
   .pastry2 { /* Brownie */
